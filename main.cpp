@@ -55,7 +55,10 @@ int main(){
     
     //If they picked option 3, the FightFunc will be used
     if(option == "3"){
-        FightFunc(games);
+        
+        //The game is started and when it ends, the points will be added
+        //to globalPoint (which will add points of all games after they have ended)
+        ((Fight *)games[2])->globalPoint = FightFunc(games);
     }
     
     return 0;
