@@ -29,10 +29,10 @@ int main(){
     //can be changed and it should stil give everyone the same name
     cin >> ((Fight *)games[2])->name;
     
-    //uncomment comment below to test if right name is given
-    //cout << ((Fight *)games[2])->name << endl;
+    cout << ((Fight *)games[2])->name << endl;
     
     //this option will be used to determine which game the user wants to play
+    
     //string for option because if it's int type and user enters a string
     //it breaks the code
     string option = "0";
@@ -42,11 +42,11 @@ int main(){
     cout << "1. BasketBall" << endl;
     cout << "2. BlackJack" << endl;
     cout << "3. Fighting game" << endl;
-    cout << "Please pick the number you want to play" << endl;
     
     //This loop is to make sure the user enters a number between
     //1-3
     while((check != 1)){
+        cout << "Please pick the number you want to play" << endl;
         cin >> option;
         if(option == "1" || option == "2" || option == "3"){
             check = 1;
@@ -63,4 +63,5 @@ int main(){
     
     return 0;
 }
+    
     
