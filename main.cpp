@@ -29,10 +29,10 @@ int main(){
     //can be changed and it should stil give everyone the same name
     cin >> ((Fight *)games[2])->name;
     
-    cout << ((Fight *)games[2])->name << endl;
+    //uncomment comment below to test if right name is given
+    //cout << ((Fight *)games[2])->name << endl;
     
     //this option will be used to determine which game the user wants to play
-    
     //string for option because if it's int type and user enters a string
     //it breaks the code
     string option = "0";
