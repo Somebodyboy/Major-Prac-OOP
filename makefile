@@ -10,7 +10,7 @@ Blackjack: Game.o Blackjack.o BlackjackFunc.o BlackjackTest.o
 Fight: Game.o Fight.o FightFunc.o FightTest.o
 	clang++ Game.o Fight.o FightFunc.o FightTest.o -o testFight
 	
-test4: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o testAll.o
+testAll: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o testAll.o
 	clang++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o testAll.cpp -o testAll
 	
 Game.o:
