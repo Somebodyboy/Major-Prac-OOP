@@ -1,17 +1,17 @@
 all: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o main.o
 	clang++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o  main.cpp -o main
 	
-Basketball: Game.o Basketball.o BasketballFunc.o test1.o
-	clang++ Game.o Basketball.o BasketballFunc.o test1.o -o testBasketball
+Basketball: Game.o Basketball.o BasketballFunc.o BasketballTest.o
+	clang++ Game.o Basketball.o BasketballFunc.o BasketballTest.o -o testBasketball
 
-Blackjack: Game.o Blackjack.o BlackjackFunc.o test2.o
-	clang++ Game.o Blackjack.o BlackjackFunc.o test2.o -o testBlackjack
+Blackjack: Game.o Blackjack.o BlackjackFunc.o BlackjackTest.o
+	clang++ Game.o Blackjack.o BlackjackFunc.o BlackjackTest.o -o testBlackjack
 	
-Fight: Game.o Fight.o FightFunc.o test3.o
-	clang++ Game.o Fight.o FightFunc.o test3.o -o testFight
+Fight: Game.o Fight.o FightFunc.o FightTest.o
+	clang++ Game.o Fight.o FightFunc.o FightTest.o -o testFight
 	
-test4: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o test4.o
-	clang++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o test4.cpp -o test4
+test4: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o testAll.o
+	clang++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o testAll.cpp -o testAll
 	
 Game.o:
 	clang++ -c Game.cpp
@@ -37,17 +37,17 @@ BasketballFunc.o:
 main.o:
 	clang++ -c main.cpp
 
-test1.o:
-	clang++ -c test1.cpp
+BasketballTest.o:
+	clang++ -c BasketballTest.cpp
 	
-test2.o:
-	clang++ -c test2.cpp
+BlackjackTest.o:
+	clang++ -c BlackjackTest.cpp
 
-test3.o:
-	clang++ -c test3.cpp
+FightTest.o:
+	clang++ -c FightTest.cpp
 
-test4.o:
-	clang++ -c test4.cpp
+testAll.o:
+	clang++ -c testAll.cpp
 	
 clean:
 	rm *.o
