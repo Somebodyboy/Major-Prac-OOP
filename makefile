@@ -5,6 +5,11 @@ Basketball: Game.o Basketball.o BasketballFunc.o BasketballTest.o basketballInpu
 	clang++ Game.o Basketball.o BasketballFunc.o BasketballTest.o -o testBasketball -Wall
 	./testBasketball < basketballInput.txt
 
+basketballTestInput: Basketball.cpp Basketball.h basketballTest.cpp basketballInput.txt Game.cpp Game.h
+	clear
+	g++ Basketball.cpp basketballTest.cpp Game.cpp -Wall -o run
+	./run < basketballInput.txt
+
 Blackjack: Game.o Blackjack.o BlackjackFunc.o BlackjackTest.o BlackjackInput.txt
 	clang++ Game.o Blackjack.o BlackjackFunc.o BlackjackTest.o -o testBlackjack -Wall
 	./testBlackjack BlackjackInput.txt

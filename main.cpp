@@ -1,66 +1,86 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include "Game.h"
-#include "Fight.h"
+#include <bits/stdc++.h>
+// #include "Game.h"
+// #include "Fight.h"
+#include "Basketball.h"
+// #include "Blackjack.h"
+
 using namespace std;
 
-//All of our external game functions should go here
-extern int FightFunc(Game** game);
-    
+// All of our external game functions should go here
+// extern int FightFunc(Game** game);
 
 int main(){
+    
     //This is where all of our games go in to one Games pointer array
-    Game* games[3];
+    Game * games[3];
     
     //take comment off once Basketball and Blackjack
     //have been implemented
     
-    //games[0] = new Basketball();
+    games[0] = new Basketball();
     //games[1] = new BlackJack();
-    games[2] = new Fight;
-    
-    //Arcade welcome message and name input message
-    cout << "Welcome to the arcade!" << endl;
-    
-    cout << "Enter your name: " << endl;
-    
-    //name is static across all children so the cast and array number
-    //can be changed and it should stil give everyone the same name
-    cin >> ((Fight *)games[2])->name;
-    
-    cout << ((Fight *)games[2])->name << endl;
-    
-    //this option will be used to determine which game the user wants to play
-    
-    //string for option because if it's int type and user enters a string
-    //it breaks the code
-    string option = "0";
-    int check = 0;
-    
-    //This is where the user gets the options and the numbers associated with them
-    cout << "1. BasketBall" << endl;
-    cout << "2. BlackJack" << endl;
-    cout << "3. Fighting game" << endl;
-    
-    //This loop is to make sure the user enters a number between
-    //1-3
-    while((check != 1)){
-        cout << "Please pick the number you want to play" << endl;
-        cin >> option;
-        if(option == "1" || option == "2" || option == "3"){
-            check = 1;
+    //games[2] = new Fight;
+
+    // Game options stored in an array
+    int numberOfOptions=6;
+    string options[numberOfOptions]={"Basketball\n","Blackjack\n","Fight\n","View game history\n","Prize corner\n","Exit\n"};
+
+    // Prize corner
+    // string prizes[5]={"High-tech gaming mouse","Office mouse","Mug","Small plushie","Stickers"};
+    // int basePrize=300; // This is the base prize, just divide by the index+1 for the price of each prize
+    // vector<string> userPrizes; // Contains the user's collected prizes
+
+    // Welcome message
+    cout<<"\n\nWelcome to the Virtual Arcade!\n";
+
+    // Initialise arcade
+    while (true){
+
+        // Options
+        cout<<"Please enter the number for the option you would like\n";
+        for (int i=0; i<numberOfOptions; i++){
+            cout<<i+1<<". "<<options[i];
+        }
+        cout<<"\n";
+
+        // User input and validation
+        string userSelectedChoice="0";
+        while (userSelectedChoice.length()!=1 || userSelectedChoice[0]<'1' || userSelectedChoice[0]>'6' || userSelectedChoice[1]==' '){
+            cout<<"Please select a valid number between 1-6 : ";
+            cin>>userSelectedChoice;
+        }
+
+        // Handling user input
+        int convertedChoice=int(userSelectedChoice[0])-'0'-1;
+        cout<<"\nYou selected "<<options[convertedChoice]<<"\n";
+        if (convertedChoice==5){
+            break;
+        }
+        switch(convertedChoice){
+            case 0:
+                games[0]->play();
+                break;
+            case 1:
+                //Run blackjack
+                break;
+            case 2:
+                //Run fight
+                break;
+            case 3:
+                //Run view game history
+                break;
+            case 4:
+                //Run prize corner
+                break;
+            default:
+                cout<<"Invalid\n";
+                break;
         }
     }
-    
-    //If they picked option 3, the FightFunc will be used
-    if(option == "3"){
-        
-        //The game is started and when it ends, the points will be added
-        //to globalPoint (which will add points of all games after they have ended)
-        ((Fight *)games[2])->globalPoint = FightFunc(games);
-    }
-    
+
+    // Goodbye message
+    cout<<"Thank you for playing the Virtual Arcade\n\n";
+
     return 0;
 }
     

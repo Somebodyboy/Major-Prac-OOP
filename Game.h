@@ -1,22 +1,23 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include <iostream>
-#include <vector>
-#include <string>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-class Game {
-    public: 
-            virtual void play()=0;
-            virtual void howToPlay()=0;
-            virtual void result()=0;
-            static string name;
-            int maxPoint;
-            
-            static int globalPoint; //This will be used to add points from specific games 
-                                    //so that the points add up globally
-            vector<string> instructions;
+class Game{
+    string name;
+    int maxPoint;
+    public:
+    static int globalPoint;
+    vector<string> instructions;
+    virtual void play()=0;
+    virtual void result()=0;
+    void howToPlay();
+    int getMaxPoint();
+    void setMaxPoint(int newMax);
+    string getName();
+    void setName(string newName);
 };
 
 #endif
