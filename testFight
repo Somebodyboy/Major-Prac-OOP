@@ -1,0 +1,3 @@
+echo Test 1: All letters are guessed correctly and this is max points earned by the game
+./fightTest2 < fightInput1.txt
+./fightTest2 < fightInput1.txt | diff - fightOutput1.txt
