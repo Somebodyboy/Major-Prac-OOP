@@ -2,6 +2,7 @@
 #define BLACKJACK_H
 
 #include "Game.h"
+#include <string>
 
 //Blackjack
 //Pays 1:1 regular, 2:1 on a Blackjack
@@ -27,13 +28,13 @@ public:
         void calculateHand(); //Calculates the value total of a hand
     };
     void play(); //virtual
-    void howToPlay(); //virtual
-    void result(); //virtual
+    void result(); //virtual. Calculates the score based on rounds played and money left.
     static string name;
     int maxPoint;
     int bet;
     int money;
     int score;
+    int rounds;
     Player player;
     Player dealer;
     bool hideDealerHand;
@@ -42,10 +43,10 @@ public:
     vector<Card> deck;
     void generateDeck(); //Creates and shuffles the deck on the heap, during runtime.
     void round(); //Starts a round of Blackjack
-    int calculateScore();
-    int setBet(); //Asks for a bet, verifies it and returns it.
-    bool splitPlay();
-    bool doublePlay();
+    int setBet(int limit); //Asks for a bet up to a limit, verifies it and returns it.
+    bool splitActive; //splitPlay active, true when the last round was a split.
+    void splitPlay();
+    void doublePlay();
     string getInput(vector<string> availableInputs); //Validates input for strings
     void render(); //Displays the table. Dealer hand + player hand + misc text
     void renderHand(vector<Card> hand); //Renders one hand

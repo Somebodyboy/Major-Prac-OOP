@@ -4,6 +4,8 @@
 
 using namespace std;
 
+int Game::globalPoint = 0;
+
 void Game::howToPlay(){
     cout<<"Here are the instructions for how to play "<<this->getName()<<"\n";
     for (int i=0; i<int(instructions.size()); i++){
@@ -23,3 +25,11 @@ string Game::getName(){
 void Game::setName(string newName){
     this->name=newName;
 }
+
+void Game::setGlobalPoint(int points){
+    globalPoint = globalPoint + points;
+};
+
+int Game::getGlobalPoint(){
+    return globalPoint;
+};

@@ -24,6 +24,7 @@ Basketball::Basketball(){
 
 // Starts the game and runs all the functions in the game
 void Basketball::play(){
+    this->timeLimit=15;
     this->setScoreToZero();
     this->howToPlay();
     while (timeLimit>0){
@@ -40,7 +41,7 @@ void Basketball::play(){
         }
         this->timeLimit-=chosenShot;
     }
-
+    setGlobalPoint(this->getScore());
     this->result();
 }
 

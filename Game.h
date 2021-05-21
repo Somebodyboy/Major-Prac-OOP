@@ -6,18 +6,23 @@
 using namespace std;
 
 class Game{
-    string name;
-    int maxPoint;
+    private:
+            string name;
+            int maxPoint;
+            static int globalPoint;
     public:
-    static int globalPoint;
-    vector<string> instructions;
-    virtual void play()=0;
-    virtual void result()=0;
-    void howToPlay();
-    int getMaxPoint();
-    void setMaxPoint(int newMax);
-    string getName();
-    void setName(string newName);
+            vector<string> instructions;
+            virtual void play()=0;
+            virtual void result()=0;
+            void howToPlay();
+            int getMaxPoint();
+            void setMaxPoint(int newMax);
+            string getName();
+            void setName(string newName);
+            int getGlobalPoint();
+            void setGlobalPoint(int points);
+
+    
 };
 
 #endif

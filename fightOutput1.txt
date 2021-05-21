@@ -1,0 +1,143 @@
+
+
+Welcome to the Virtual Arcade!
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. Exit
+
+Please select a valid number between 1-6 : 
+You selected Fight
+
+Here are the instructions for how to play Word guessing fight game
+1. This is a game where you try to guess 5 words
+2. The first letter of every new word is given to you
+3. The first letter that is given can be contained inside the word again
+4. Each time you guess a letter in a word correctly, your score goes up by 5
+5. For every letter you get right consecutively, the points gained are increased by another 5
+6. Each time you guess a letter incorrectly, the multiplier is set back to zero and 5 points are reduced from your score
+
+Enter 1 to start
+The word you have to guess is
+a _ _ _ _ _ 
+enter letter
+a _ _ a _ _ 
+Delt 5 damage!
+score so far: 5
+enter letter
+a t t a _ _ 
+Delt 15 damage!
+score so far: 30
+enter letter
+a t t a c _ 
+Delt 20 damage!
+score so far: 50
+enter letter
+a t t a c k 
+Delt 25 damage!
+score so far: 75
+The word you have to guess is
+d _ _ _ _ _ 
+enter letter
+d _ _ _ _ d 
+Delt 30 damage!
+score so far: 105
+enter letter
+d e _ e _ d 
+Delt 40 damage!
+score so far: 180
+enter letter
+d e f e _ d 
+Delt 45 damage!
+score so far: 225
+enter letter
+d e f e n d 
+Delt 50 damage!
+score so far: 275
+The word you have to guess is
+p _ _ _ _ _ _ _ 
+enter letter
+p r _ _ _ _ _ _ 
+Delt 55 damage!
+score so far: 330
+enter letter
+p r e _ _ _ _ e 
+Delt 65 damage!
+score so far: 455
+enter letter
+p r e s _ _ _ e 
+Delt 70 damage!
+score so far: 525
+enter letter
+p r e s t _ _ e 
+Delt 75 damage!
+score so far: 600
+enter letter
+p r e s t i _ e 
+Delt 80 damage!
+score so far: 680
+enter letter
+p r e s t i g e 
+Delt 85 damage!
+score so far: 765
+The word you have to guess is
+h _ _ _ _ 
+enter letter
+h a _ _ _ 
+Delt 90 damage!
+score so far: 855
+enter letter
+h a s _ _ 
+Delt 95 damage!
+score so far: 950
+enter letter
+h a s t _ 
+Delt 100 damage!
+score so far: 1050
+enter letter
+h a s t e 
+Delt 105 damage!
+score so far: 1155
+The word you have to guess is
+t _ _ _ _ _ _ _ 
+enter letter
+t e _ e _ _ _ _ 
+Delt 115 damage!
+score so far: 1380
+enter letter
+t e l e _ _ _ _ 
+Delt 120 damage!
+score so far: 1500
+enter letter
+t e l e p _ _ _ 
+Delt 125 damage!
+score so far: 1625
+enter letter
+t e l e p o _ _ 
+Delt 130 damage!
+score so far: 1755
+enter letter
+t e l e p o r _ 
+Delt 135 damage!
+score so far: 1890
+enter letter
+t e l e p o r t 
+Delt 140 damage!
+score so far: 2030
+Your end score is: 2030
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. Exit
+
+Please select a valid number between 1-6 : 
+You selected Exit
+
+Thank you for playing the Virtual Arcade
+

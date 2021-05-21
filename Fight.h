@@ -9,18 +9,17 @@ using namespace std;
 
 class Fight : public Game
 {
+    private:
+            string words[5];
+            int score;
     public:
-            //Fight();
+            Fight();
             virtual void play();
-            virtual void howToPlay();
             virtual void result();
-            int score();
-            string word1;
-            string word2;
-            string word3;
-            string word4;
-            string word5;
-            int start;
+            void setScore(int);
+            int getScore();
+            string getWord(int num);
+            ~Fight();
     
 };
 
