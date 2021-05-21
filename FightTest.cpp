@@ -108,6 +108,6 @@ int main(){
     test1(fight1);
     test2(fight2);
     
-    delete fight1;
-    delete fight2;
+    delete ((Fight*)fight1);
+    delete ((Fight*)fight2);
 }
