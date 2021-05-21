@@ -1,15 +1,10 @@
-all: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o main.o
-	g++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o  main.cpp -o main -Wall
+all: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o main.o
+	g++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o  main.cpp -o main -Wall
 
 main: 
 	clear
 	g++ Basketball.cpp Game.cpp main.cpp Fight.cpp FightFunc.cpp -Wall -o run
 	./run
-	
-
-# Basketball: Game.o Basketball.o BasketballFunc.o BasketballTest.o basketballInput.txt
-# 	g++ Game.o Basketball.o BasketballFunc.o BasketballTest.o -o testBasketball -Wall
-# 	./testBasketball < basketballInput.txt > basketballOutput.txt
 
 basketballTestInput: Basketball.cpp Basketball.h basketballTest.cpp basketballInput.txt Game.cpp Game.h
 	clear
@@ -21,22 +16,19 @@ recordBasketballTestInput: Basketball.cpp Basketball.h basketballTest.cpp basket
 	g++ Basketball.cpp basketballTest.cpp Game.cpp -Wall -o run
 	./run < basketballInput.txt > basketballOutput.txt
 
-Blackjack: Game.o Blackjack.o BlackjackFunc.o BlackjackTest.o BlackjackInput.txt
-	g++ Game.o Blackjack.o BlackjackFunc.o BlackjackTest.o -o testBlackjack -Wall
-	./testBlackjack 
+Blackjack: Game.o Blackjack.o BlackjackTest.o BlackjackInput.txt
+	clang++ Game.o Blackjack.o BlackjackTest.o -o testBlackjack -Wall
+	./testBlackjack
 	
 FightTest1: Game.o Fight.o FightTest.o
-	g++ Game.o Fight.o FightTest.o -o fightTest1 -Wall
+	clang++ Game.o Fight.o FightTest.o -o fightTest1 -Wall
 	clear
 	./fightTest1
 	
 FightTest2: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o main.o
 	clear
-	g++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o  main.cpp -o fightTest2 -Wall
+	clang++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o  main.cpp -o fightTest2 -Wall
 	bash testFight
-	
-test4: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o testAll.o
-	g++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o BlackjackFunc.o BasketballFunc.o testAll.cpp -o testAll -Wall
 	
 Game.o:
 	g++ -c Game.cpp
@@ -52,12 +44,6 @@ Basketball.o:
 	
 FightFunc.o:
 	g++ -c FightFunc.cpp
-
-BlackjackFunc.o:
-	g++ -c BlackjackFunc.cpp
-	
-# BasketballFunc.o:
-# 	g++ -c BasketballFunc.cpp
 	
 main.o:
 	g++ -c main.cpp
