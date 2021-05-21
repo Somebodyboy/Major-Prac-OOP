@@ -61,7 +61,7 @@ void FightFunc(Game** game){
         //this is setting up the wordGuess array and displaying the word they have to guess
         //Letters to be guessed will be shown and stored as "_" and the first letter of the word
         //is shown to the user and also stored in the wordGuess array
-        for(int i = 0; i < int(currentWord.length()); i++){
+        for(int i = 0; i < currentWord.length(); i++){
             if(i == 0){
                 wordToGuess[i] = currentWord[i];
                 cout << wordToGuess[i] << " ";
@@ -89,10 +89,20 @@ void FightFunc(Game** game){
             cout << "enter letter" << endl;
             cin >> guessLetter;
             
+            //if user inputs E the game is exited
+            if(guessLetter == 'E'){
+                //gives the score/points earned from the function to the class
+                ((Fight*)game[2])->setScore(score);
+                //shows user their final score
+                //and updates global points user has earned
+                ((Fight*)game[2])->result();
+                return;
+            }
+            
             //guessLetter is compared to all letters in the word to be guessed
             //and then the word is displayed once again with (if any)
             //new letters added to the word
-            for(int i = 0; i < int(currentWord.length()); i++){
+            for(int i = 0; i < currentWord.length(); i++){
                 //if the guessed letter matches a letter in the whole word and 
                 //is being displayed as "_" to the user, the "_" is replaced by the letter
                 //and checkLength is incremented by 1
@@ -131,7 +141,7 @@ void FightFunc(Game** game){
             //meaning checkLength is equal to the length of the whole
             //word that was to be guessed
             //wordsGuessed is also incremented by 1
-            if(checkLength == int(currentWord.length())){
+            if(checkLength == currentWord.length()){
                 wordsGuessed++;
                 break;
             }
