@@ -12,6 +12,7 @@ Fight::Fight(){
     instructions.push_back("Each time you guess a letter in a word correctly, your score goes up by 5");
     instructions.push_back("For every letter you get right consecutively, the points gained are increased by another 5");
     instructions.push_back("Each time you guess a letter incorrectly, the multiplier is set back to zero and 5 points are reduced from your score");
+    instructions.push_back("IMPORTANT: If you want to exit the game, enter E (in capital)");
 };
 
 void Fight::play(){
