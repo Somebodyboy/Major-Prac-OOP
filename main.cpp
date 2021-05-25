@@ -2,7 +2,7 @@
 #include "Game.h"
 #include "Fight.h"
 #include "Basketball.h"
-// #include "Blackjack.h"
+#include "Blackjack.h"
 
 using namespace std;
 
@@ -10,16 +10,16 @@ using namespace std;
 extern void FightFunc(Game**);
 
 int main(){
-    
+
     //This is where all of our games go in to one Games pointer array
     int numberOfGames=3;
     Game * games[numberOfGames];
-    
+
     //take comment off once Basketball and Blackjack
     //have been implemented
-    
+
     games[0] = new Basketball();
-    //games[1] = new BlackJack();
+    games[1] = new BlackJack();
     games[2] = new Fight;
 
     // Game options stored in an array
@@ -69,6 +69,7 @@ int main(){
                 break;
             case 1:
                 //Run blackjack
+                games[0]->play();
                 gameHistory.push_back(options[1]);
                 break;
             case 2:
@@ -112,4 +113,3 @@ int main(){
 
     return 0;
 }
-    
