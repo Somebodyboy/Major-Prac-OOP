@@ -120,7 +120,7 @@ void FightFunc(Game** game){
             //if a letter contained in the current word is guessed correctly by the user
             //the user is shown how much damage they have delt
             if(correctGuessCheck == 1){
-                cout << "Delt " << multiplier * ((Fight*)game[2])->getMaxPoint() << " damage!" << endl;
+                cout << "Dealt " << multiplier * ((Fight*)game[2])->getMaxPoint() << " damage!" << endl;
             }
             
             //this if statement to check if the entered letter was a letter contained
@@ -129,8 +129,8 @@ void FightFunc(Game** game){
             //the user's score
              if(currentWord.find(guessLetter) > currentWord.length()){
                  multiplier = 0;
-                 score = score - 5;
-                 cout << "Took 5 damage!" << endl;
+                 score = score - 2;
+                 cout << "Took 2 damage!" << endl;
                 
             }
             
