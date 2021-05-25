@@ -1,0 +1,71 @@
+Testing round()
+Testing setBet()
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Dealer's Hand:
+  Ten      Seven    
+   Of        Of     
+  Suits     Suits   
+
+Dealer's Value: 17
+Player's Value: 21
+
+Your Hand:
+  Ace       King    
+   Of        Of     
+  Suits     Suits   
+
+Money: 50   Bet: 50
+Blackjack! Your bet is doubled and given.
+Please enter your bet, 1-250
+Dealer's Hand:
+ Queen
+   Of     Hidden
+  Suits     Card
+
+Dealer's Value: 10
+Player's Value: 17
+
+Your Hand:
+  Jack     Seven    
+   Of        Of     
+  Suits     Suits   
+
+Money: 200   Bet: 50
+Enter "h" to hit, "s" to stand, "dd" to double down.
+
+
+Dealer's Hand:
+ Queen     Queen    
+   Of        Of     
+  Suits     Suits   
+
+Dealer's Value: 20
+Player's Value: 17
+
+Your Hand:
+  Jack     Seven    
+   Of        Of     
+  Suits     Suits   
+
+Money: 200   Bet: 50
+You lose. Your bet is lost.
+
+Testing getInput()
+Looking for: h
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Result: h
