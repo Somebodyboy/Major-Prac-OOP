@@ -16,7 +16,7 @@ Fight::Fight(){
 };
 
 void Fight::play(){
-    setMaxPoint(100);
+    setMaxPoint(5);
     setScore(0);
     
     words[0] = "attack";
