@@ -14,12 +14,10 @@ int main(){
     //This is where all of our games go in to one Games pointer array
     int numberOfGames=3;
     Game * games[numberOfGames];
-
-    //take comment off once Basketball and Blackjack
-    //have been implemented
-
+    
+    //creating all games on the heap in the games pointer array
     games[0] = new Basketball();
-    games[1] = new BlackJack();
+    games[1] = new Blackjack();
     games[2] = new Fight;
 
     // Game options stored in an array
@@ -69,7 +67,7 @@ int main(){
                 break;
             case 1:
                 //Run blackjack
-                games[0]->play();
+                games[1]->play();
                 gameHistory.push_back(options[1]);
                 break;
             case 2:
@@ -87,14 +85,50 @@ int main(){
                 break;
             case 4:
                 //Run prize corner
-                cout<<"Your current amount of points : "<<games[0]->getGlobalPoint()<<"\n\n";
-                for (int i=0; i<numberOfPrizes; i++){
-                    cout<<i+1<<". "<<prizes[i]<<" - "<<basePrize/(i+1)<<" Points"<<"\n";
+                //while loop until user exits
+                while(true){
+                    //gives current points from GlobalPoint
+                    cout<<"Your current amount of points : "<<games[0]->getGlobalPoint()<<"\n\n";
+                    //for loop to show options of prizes and exit option and what number they have to enter
+                    //for the corresponding item/option
+                    for (int i=0; i<numberOfPrizes; i++){
+                        cout<<i+1<<". "<<prizes[i]<<" - "<<basePrize/(i+1)<<" Points"<<"\n";
+                        if(i+1 == numberOfPrizes){
+                            cout << numberOfPrizes+1<<". Exit"<<endl;
+                        }
+                    }
+                    
+                    //the variable where their entered option will be stored
+                    string prizeNum;
+                    cout << "Enter the number of the prize you want to redeem or enter E to exit: ";
+                    cin >> prizeNum;
+                    
+                    //if they choose last number, the prize corner will be exited
+                    if(stoi(prizeNum) == numberOfPrizes+1){
+                        cout << "Exited the Prize Corner" << endl;
+                        break;
+                    }
+                    //for loop that checks which item the user selected which isn't the exit option
+                    //and uses if statement within the loop to check if they actually have enough points
+                    //to redeem the prize
+                    for (int i=0; i<numberOfPrizes; i++){
+                        
+                        if((i+1 == stoi(prizeNum)) && (games[0]->getGlobalPoint()>(basePrize/(i+1)))){
+                            //Prize is added to the user's prizes
+                            userPrizes.push_back(prizes[i]);
+                            //subtracts points from their overall points
+                            games[0]->setGlobalPoint(-(basePrize/(i+1)));
+                            //shows which item they have redeemed
+                            cout << "Redeemed " << prizes[i];
+                            cout << endl;
+                        }
+                    }
                 }
                 cout<<"\n";
                 break;
             case 5:
                 //Run view my prizes
+                //shows user what prizes they have redeemed
                 cout<<"The prizes you have earned:\n";
                 for (int i=0; i<int(userPrizes.size()); i++){
                     cout<<i+1<<". "<<userPrizes[i]<<"\n";
