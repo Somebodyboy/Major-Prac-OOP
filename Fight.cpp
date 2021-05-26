@@ -16,7 +16,7 @@ Fight::Fight(){
 };
 
 void Fight::play(){
-    setMaxPoint(5);
+    setMaxPoint(3);
     setScore(0);
     
     words[0] = "attack";
@@ -54,11 +54,11 @@ string Fight::getWord(int num){
     return 0;
 };
 
-void Fight::setScore(int aScore){
+void Fight::setScore(double aScore){
     score = aScore;
 };
 
-int Fight::getScore(){
+double Fight::getScore(){
     return score;
 };
 
