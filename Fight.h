@@ -11,15 +11,15 @@ class Fight : public Game
 {
     private:
             string words[5];
-            int score;
+            double score;
     public:
             Fight();
             virtual void play();
             virtual void result();
-            void setScore(int);
-            int getScore();
+            void setScore(double);
+            double getScore();
             string getWord(int num);
-            ~Fight();
+            virtual ~Fight();
     
 };
 
