@@ -100,13 +100,13 @@ int main(){
 
                     //the variable where their entered option will be stored
                     string prizeNumInput;
-                    cout << "Enter the number of the prize you want to redeem or enter E to exit: ";
+                    cout << "Enter the number of the prize you want to redeem or enter " << numberOfPrizes+1 << " to exit." << endl;
                     cin >> prizeNumInput;
 
-                    int prizeNum=int(prizeNumInput[0])-'0'-1;
+                    int prizeNum=int(prizeNumInput[0])-'0';
 
                     //if they choose last number, the prize corner will be exited
-                    if(stoi(prizeNum) == numberOfPrizes+1){
+                    if(prizeNum == numberOfPrizes+1){
                         cout << "Exited the Prize Corner" << endl;
                         break;
                     }
@@ -115,7 +115,7 @@ int main(){
                     //to redeem the prize
                     for (int i=0; i<numberOfPrizes; i++){
 
-                        if((i+1 == stoi(prizeNum)) && (games[0]->getGlobalPoint()>(basePrize/(i+1)))){
+                        if((i+1 == prizeNum) && (games[0]->getGlobalPoint()>(basePrize/(i+1)))){
                             //Prize is added to the user's prizes
                             userPrizes.push_back(prizes[i]);
                             //subtracts points from their overall points
