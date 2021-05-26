@@ -26,11 +26,11 @@ void Game::setName(string newName){
     this->name=newName;
 }
 
-void Game::setGlobalPoint(int points){
+void Game::setGlobalPoint(double points){
     globalPoint = globalPoint + points;
 };
 
-int Game::getGlobalPoint(){
+double Game::getGlobalPoint(){
     return globalPoint;
 };
 
