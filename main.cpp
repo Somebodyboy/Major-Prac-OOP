@@ -99,11 +99,17 @@ int main(){
                     }
 
                     //the variable where their entered option will be stored
-                    string prizeNumInput;
+                    string prizeNumInput="0";
+                    //this is where the input will be converted into int type
+                    int prizeNum=0;
+                    //while loop until user enters valid numbers
+                    while(prizeNumInput[0] == ' ' || prizeNumInput[0] < '1' || prizeNumInput > to_string(numberOfPrizes+1) || prizeNumInput.length()!=1){
                     cout << "Enter the number of the prize you want to redeem or enter " << numberOfPrizes+1 << " to exit." << endl;
                     cin >> prizeNumInput;
+                    //converts string input to int type by using ascii values
+                    prizeNum=int(prizeNumInput[0])-'0';
+                    }
 
-                    int prizeNum=int(prizeNumInput[0])-'0';
 
                     //if they choose last number, the prize corner will be exited
                     if(prizeNum == numberOfPrizes+1){
@@ -115,7 +121,7 @@ int main(){
                     //to redeem the prize
                     for (int i=0; i<numberOfPrizes; i++){
 
-                        if((i+1 == prizeNum) && (games[0]->getGlobalPoint()>(basePrize/(i+1)))){
+                        if((i+1 == prizeNum) && (games[0]->getGlobalPoint()>=(basePrize/(i+1)))){
                             //Prize is added to the user's prizes
                             userPrizes.push_back(prizes[i]);
                             //subtracts points from their overall points
