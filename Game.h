@@ -19,8 +19,8 @@ class Game{
             void setMaxPoint(int newMax);
             string getName();
             void setName(string newName);
-            int getGlobalPoint();
-            void setGlobalPoint(int points);
+            double getGlobalPoint();
+            void setGlobalPoint(double points);
             virtual ~Game()=0;
 
     
