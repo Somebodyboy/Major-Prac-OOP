@@ -33,3 +33,7 @@ void Game::setGlobalPoint(int points){
 int Game::getGlobalPoint(){
     return globalPoint;
 };
+
+Game::~Game(){
+    
+};
