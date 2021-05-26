@@ -27,109 +27,109 @@ The word you have to guess is
 a _ _ _ _ _ 
 enter letter
 a _ _ a _ _ 
-Delt 0.25 damage!
-score so far: 0.25
+Dealt 0.15 damage!
+score so far: 0.15
 enter letter
 a t t a _ _ 
-Delt 0.75 damage!
-score so far: 1.5
+Dealt 0.45 damage!
+score so far: 0.9
 enter letter
 a t t a c _ 
-Delt 1 damage!
-score so far: 2.5
+Dealt 0.6 damage!
+score so far: 1.5
 enter letter
 a t t a c k 
-Delt 1.25 damage!
-score so far: 3.75
+Dealt 0.75 damage!
+score so far: 2.25
 The word you have to guess is
 d _ _ _ _ _ 
 enter letter
 d _ _ _ _ d 
-Delt 1.5 damage!
-score so far: 5.25
+Dealt 0.9 damage!
+score so far: 3.15
 enter letter
 d e _ e _ d 
-Delt 2 damage!
-score so far: 9
+Dealt 1.2 damage!
+score so far: 5.4
 enter letter
 d e f e _ d 
-Delt 2.25 damage!
-score so far: 11.25
+Dealt 1.35 damage!
+score so far: 6.75
 enter letter
 d e f e n d 
-Delt 2.5 damage!
-score so far: 13.75
+Dealt 1.5 damage!
+score so far: 8.25
 The word you have to guess is
 p _ _ _ _ _ _ _ 
 enter letter
 p r _ _ _ _ _ _ 
-Delt 2.75 damage!
-score so far: 16.5
+Dealt 1.65 damage!
+score so far: 9.9
 enter letter
 p r e _ _ _ _ e 
-Delt 3.25 damage!
-score so far: 22.75
+Dealt 1.95 damage!
+score so far: 13.65
 enter letter
 p r e s _ _ _ e 
-Delt 3.5 damage!
-score so far: 26.25
+Dealt 2.1 damage!
+score so far: 15.75
 enter letter
 p r e s t _ _ e 
-Delt 3.75 damage!
-score so far: 30
+Dealt 2.25 damage!
+score so far: 18
 enter letter
 p r e s t i _ e 
-Delt 4 damage!
-score so far: 34
+Dealt 2.4 damage!
+score so far: 20.4
 enter letter
 p r e s t i g e 
-Delt 4.25 damage!
-score so far: 38.25
+Dealt 2.55 damage!
+score so far: 22.95
 The word you have to guess is
 h _ _ _ _ 
 enter letter
 h a _ _ _ 
-Delt 4.5 damage!
-score so far: 42.75
+Dealt 2.7 damage!
+score so far: 25.65
 enter letter
 h a s _ _ 
-Delt 4.75 damage!
-score so far: 47.5
+Dealt 2.85 damage!
+score so far: 28.5
 enter letter
 h a s t _ 
-Delt 5 damage!
-score so far: 52.5
+Dealt 3 damage!
+score so far: 31.5
 enter letter
 h a s t e 
-Delt 5.25 damage!
-score so far: 57.75
+Dealt 3.15 damage!
+score so far: 34.65
 The word you have to guess is
 t _ _ _ _ _ _ _ 
 enter letter
 t e _ e _ _ _ _ 
-Delt 5.75 damage!
-score so far: 69
+Dealt 3.45 damage!
+score so far: 41.4
 enter letter
 t e l e _ _ _ _ 
-Delt 6 damage!
-score so far: 75
+Dealt 3.6 damage!
+score so far: 45
 enter letter
 t e l e p _ _ _ 
-Delt 6.25 damage!
-score so far: 81.25
+Dealt 3.75 damage!
+score so far: 48.75
 enter letter
 t e l e p o _ _ 
-Delt 6.5 damage!
-score so far: 87.75
+Dealt 3.9 damage!
+score so far: 52.65
 enter letter
 t e l e p o r _ 
-Delt 6.75 damage!
-score so far: 94.5
+Dealt 4.05 damage!
+score so far: 56.7
 enter letter
 t e l e p o r t 
-Delt 7 damage!
-score so far: 101.5
-Your end score is: 101
+Dealt 4.2 damage!
+score so far: 60.9
+Your end score is: 60.9
 Please enter the number for the option you would like
 1. Basketball
 2. Blackjack
@@ -143,5 +143,4 @@ Please select a valid number between 1-7 :
 You selected Exit
 
 Thank you for playing the Virtual Arcade
-
 
