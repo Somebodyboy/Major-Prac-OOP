@@ -9,7 +9,7 @@ class Game{
     private:
             string name;
             int maxPoint;
-            static int globalPoint;
+            static double globalPoint;
     public:
             vector<string> instructions;
             virtual void play()=0;
