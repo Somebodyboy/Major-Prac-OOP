@@ -21,6 +21,7 @@ class Game{
             void setName(string newName);
             int getGlobalPoint();
             void setGlobalPoint(int points);
+            virtual ~Game()=0;
 
     
 };
