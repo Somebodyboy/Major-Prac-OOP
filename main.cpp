@@ -14,7 +14,7 @@ int main(){
     //This is where all of our games go in to one Games pointer array
     int numberOfGames=3;
     Game * games[numberOfGames];
-    
+
     //creating all games on the heap in the games pointer array
     games[0] = new Basketball();
     games[1] = new Blackjack();
@@ -97,12 +97,14 @@ int main(){
                             cout << numberOfPrizes+1<<". Exit"<<endl;
                         }
                     }
-                    
+
                     //the variable where their entered option will be stored
-                    string prizeNum;
+                    string prizeNumInput;
                     cout << "Enter the number of the prize you want to redeem or enter E to exit: ";
-                    cin >> prizeNum;
-                    
+                    cin >> prizeNumInput;
+
+                    int prizeNum=int(prizeNumInput[0])-'0'-1;
+
                     //if they choose last number, the prize corner will be exited
                     if(stoi(prizeNum) == numberOfPrizes+1){
                         cout << "Exited the Prize Corner" << endl;
@@ -112,7 +114,7 @@ int main(){
                     //and uses if statement within the loop to check if they actually have enough points
                     //to redeem the prize
                     for (int i=0; i<numberOfPrizes; i++){
-                        
+
                         if((i+1 == stoi(prizeNum)) && (games[0]->getGlobalPoint()>(basePrize/(i+1)))){
                             //Prize is added to the user's prizes
                             userPrizes.push_back(prizes[i]);
@@ -144,7 +146,7 @@ int main(){
     // Goodbye message
     cout<<"Thank you for playing the Virtual Arcade\n\n";
     // cout << games[0]->getGlobalPoint() << endl;
-    
+
     //remove comment from delete when all classes
     //have destructor
     // delete games[0];
