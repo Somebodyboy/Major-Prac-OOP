@@ -279,10 +279,10 @@ void Blackjack::splitPlay(){
 void Blackjack::doublePlay(){
     cout << "Double Down! Bet an additional amount up to 100% of your initial bet!" << endl;
     if (money > bet) {
-        bet += setBet(bet);
+        bet = bet + setBet(bet);
     }
     else {
-        bet += setBet(money);
+        bet = bet + setBet(money);
     }
     player.draw(this);
     player.calculateHand();
