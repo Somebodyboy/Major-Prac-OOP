@@ -30,7 +30,6 @@ public:
     void play(); //virtual
     void result(); //virtual. Calculates the score based on rounds played and money left.
     static string name;
-    int maxPoint;
     int bet;
     int money;
     int score;
