@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int Game::globalPoint = 0;
+double Game::globalPoint = 0;
 
 void Game::howToPlay(){
     cout<<"Here are the instructions for how to play "<<this->getName()<<"\n";
