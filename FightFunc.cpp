@@ -129,8 +129,16 @@ void FightFunc(Game** game){
             //the user's score
              if(currentWord.find(guessLetter) > currentWord.length()){
                  multiplier = 0;
-                 score = score - 2;
-                 cout << "Took 2 damage!" << endl;
+                 //if score is lower than two then set score to 0 to take off all of user's remaining points
+                 if(score<2){
+                     cout << "Took "<< score << " damage!" << endl; 
+                     score = 0;
+                 }
+                 //if score is 2 or higher, take off points the size of damage done
+                 else if(score >=2){
+                     cout << "Took 2 damage!" << endl;
+                     score = score - 2;
+                 }
                 
             }
             
