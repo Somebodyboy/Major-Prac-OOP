@@ -1,28 +1,17 @@
 
-Actual value : Basketball
-Expected value : Basketball
 
-Actual value : 30
-Expected value : 30
+Welcome to the Virtual Arcade!
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
 
-Actual value : 15
-Expected value : 15
-
-Actual value : 0
-Expected value : 0
-
-Actual value : 2
-Expected value : 2
-
-Actual value : 
-Chance 1 75
-Chance 2 52
-Chance 3 30
-
-Expected value : 
-Chance 1 75
-Chance 2 52
-Chance 3 30
+Please select a valid number between 1-7 : 
+You selected Basketball
 
 Here are the instructions for how to play Basketball
 
@@ -58,6 +47,8 @@ You have three choices :
 2. Normal
 3. Slow
 
+Please enter a value from 1-3 to make a choice : 
+Please enter a value from 1-3 to make a choice : 
 Please enter a value from 1-3 to make a choice : 
 Oops, you missed!
 Time left : 12
@@ -96,7 +87,6 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
-Please enter a value from 1-3 to make a choice : 
 Oops, you missed!
 Time left : 8
 
@@ -105,8 +95,6 @@ You have three choices :
 2. Normal
 3. Slow
 
-Please enter a value from 1-3 to make a choice : 
-Please enter a value from 1-3 to make a choice : 
 Please enter a value from 1-3 to make a choice : 
 Oops, you missed!
 Time left : 7
@@ -125,6 +113,7 @@ You have three choices :
 2. Normal
 3. Slow
 
+Please enter a value from 1-3 to make a choice : 
 Please enter a value from 1-3 to make a choice : 
 Oops, you missed!
 Time left : 5
@@ -162,6 +151,7 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
+Please enter a value from 1-3 to make a choice : 
 Oops, you missed!
 Time left : 1
 
@@ -170,6 +160,7 @@ You have three choices :
 2. Normal
 3. Slow
 
+Please enter a value from 1-3 to make a choice : 
 Please enter a value from 1-3 to make a choice : 
 Oops, you missed!
 
@@ -181,5 +172,17 @@ Thank you for playing basketball
 
 Your final score is 0
 
-Score should be less than or equal to 30
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Exit
+
+Thank you for playing the Virtual Arcade
 

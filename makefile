@@ -1,14 +1,16 @@
 all: Game.o Fight.o Blackjack.o Basketball.o FightFunc.o main.o
 	g++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o  main.o -o main -Wall
+
+mainTest1:
+	clear
+	g++ Game.o Fight.o Blackjack.o Basketball.o FightFunc.o  main.o -o main -Wall
+	./main < mainInput1.txt
+	./main < mainInput1.txt > mainOutput1.txt
 	
 basketballTestInput: Basketball.o basketballTest.o basketballInput.txt Game.o
 	clear
 	g++ Basketball.o basketballTest.o Game.o -Wall -o run
 	./run < basketballInput.txt
-
-recordBasketballTestInput: Basketball.o basketballTest.o basketballInput.txt Game.o
-	clear
-	g++ Basketball.o basketballTest.o Game.o -Wall -o run
 	./run < basketballInput.txt > basketballOutput.txt
 
 BlackjackTest: Game.o Blackjack.o BlackjackTest.o BlackjackInput.txt BlackjackOutput.txt
