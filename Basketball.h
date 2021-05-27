@@ -22,6 +22,7 @@ class Basketball : public Game{
     void addScore();
     int getScorePerShot();
     void printChances();
+    virtual ~Basketball();
 };
 
 #endif

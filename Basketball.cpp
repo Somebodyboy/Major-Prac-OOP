@@ -104,3 +104,8 @@ void Basketball::printChances(){
         cout<<"\n";
     }
 }
+
+// Destructor
+Basketball::~Basketball(){
+    
+}
