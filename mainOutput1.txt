@@ -30,7 +30,9 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+Please enter a value from 1-3 to make a choice : 
+Please enter a value from 1-3 to make a choice : 
+You scored!
 Time left : 14
 
 You have three choices : 
@@ -39,18 +41,7 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
-Time left : 13
-
-You have three choices : 
-1. Fast
-2. Normal
-3. Slow
-
-Please enter a value from 1-3 to make a choice : 
-Please enter a value from 1-3 to make a choice : 
-Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+You scored!
 Time left : 12
 
 You have three choices : 
@@ -59,26 +50,7 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
-Time left : 11
-
-You have three choices : 
-1. Fast
-2. Normal
-3. Slow
-
-Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
-Time left : 10
-
-You have three choices : 
-1. Fast
-2. Normal
-3. Slow
-
-Please enter a value from 1-3 to make a choice : 
-Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+You scored!
 Time left : 9
 
 You have three choices : 
@@ -87,16 +59,11 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
-Time left : 8
-
-You have three choices : 
-1. Fast
-2. Normal
-3. Slow
-
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+Please enter a value from 1-3 to make a choice : 
+Please enter a value from 1-3 to make a choice : 
+Please enter a value from 1-3 to make a choice : 
+You scored!
 Time left : 7
 
 You have three choices : 
@@ -105,26 +72,8 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
-Time left : 6
-
-You have three choices : 
-1. Fast
-2. Normal
-3. Slow
-
 Please enter a value from 1-3 to make a choice : 
-Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
-Time left : 5
-
-You have three choices : 
-1. Fast
-2. Normal
-3. Slow
-
-Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+You scored!
 Time left : 4
 
 You have three choices : 
@@ -133,16 +82,7 @@ You have three choices :
 3. Slow
 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
-Time left : 3
-
-You have three choices : 
-1. Fast
-2. Normal
-3. Slow
-
-Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+You scored!
 Time left : 2
 
 You have three choices : 
@@ -152,7 +92,7 @@ You have three choices :
 
 Please enter a value from 1-3 to make a choice : 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+You scored!
 Time left : 1
 
 You have three choices : 
@@ -162,15 +102,240 @@ You have three choices :
 
 Please enter a value from 1-3 to make a choice : 
 Please enter a value from 1-3 to make a choice : 
-Oops, you missed!
+Please enter a value from 1-3 to make a choice : 
+You scored!
 
 -----------------------------------
 
 Thank you for playing basketball
 
-0 shots on point
+8 shots on point
 
-Your final score is 0
+Your final score is 16
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Blackjack
+
+Welcome to Blackjack.
+enter "p" to start a new game, "i" to read the instructions or "q" to quit.
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+Here are the instructions for how to play Blackjack
+1. Blackjack is a game of skill and luck. Your goal is to draw cards from a deck until you reach the value of 21.
+Each card has a value equal to the number on the card with the exception of the Ace, Jack, Queen and King.
+For the Jack, Queen and King, they have a value of 10. For the Ace, it has a value of 1 or 11,
+depending if your total hand value would go over 21. For example, if you draw Two of Hearts and 
+Ace of Spades, your hand would have a value of a soft 13, "soft" indicating that your Ace is valued as 11.
+At the beginning a round, you place your bets, and the dealer and you are both dealt two cards,
+with one card from the dealer hidden. You may "hit" to draw a card, or "stand" if you are
+satisfied with your current hand. If your hand totals 21, you have a Blackjack.
+You win that round unless the dealer too has a Blackjack. If your hand goes above 21, 
+you bust, and you lose regardless of whether the dealer busts. Otherwise, you compare
+your value with the dealer, and the higher value wins. On the occasion where both parties
+have the same value, you "push", meaning no one wins nor loses.
+You may also double down during the start of the round, betting up to 100% of your original
+bet, but drawing only one extra card. If you draw two cards with the same value, you may
+bet the same value you bet originally and "split", splitting the cards into two hands,
+then playing on each hand seperately.
+
+You may only split once per pair. The dealer must hit until they reach a 17,
+and the game ends when there are less than 10 cards left in the deck.
+
+
+Welcome to Blackjack.
+enter "p" to start a new game, "i" to read the instructions or "q" to quit.
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Blackjack
+
+Welcome to Blackjack.
+enter "p" to start a new game, "i" to read the instructions or "q" to quit.
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Invalid bet, please try again!
+Please enter your bet, 1-100
+Dealer's Hand:
+ Eight
+   Of     Hidden
+  Clubs     Card
+
+Dealer's Value: 8
+Player's Value: 10
+
+Your Hand:
+  Six       Four    
+   Of        Of     
+Diamonds    Clubs   
+
+Money: 50   Bet: 50
+Enter "h" to hit, "s" to stand, "dd" to double down.
+Invalid input, please try again!
+Invalid input, please try again!
+Invalid input, please try again!
+
+
+Double Down! Bet an additional amount up to 100% of your initial bet!
+Please enter your bet, 1-50
+Invalid bet, please try again!
+Please enter your bet, 1-50
+Invalid bet, please try again!
+Please enter your bet, 1-50
+Dealer's Hand:
+ Eight      Five      Two      Seven    
+   Of        Of        Of        Of     
+  Clubs     Clubs    Spades    Hearts   
+
+Dealer's Value: 22
+Player's Value: 13
+
+Your Hand:
+  Six       Four     Three    
+   Of        Of        Of     
+Diamonds    Clubs    Spades   
+
+Money: 40   Bet: 60
+Dealer busts. Your bet is given.
+Play another round? Use "p" to start a new round, or "q" to quit.
+Game Over! Your receive 1 points for your efforts.
+Welcome to Blackjack.
+enter "p" to start a new game, "i" to read the instructions or "q" to quit.
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Fight
+
+Here are the instructions for how to play Word guessing fight game
+1. This is a game where you try to guess 5 words
+2. The first letter of every new word is given to you
+3. The first letter that is given can be contained inside the word again
+4. Each time you guess a letter in a word correctly, your score goes up by 5
+5. For every letter you get right consecutively, the points gained are increased by another 5
+6. Each time you guess a letter incorrectly, the multiplier is set back to zero and 5 points are reduced from your score
+7. IMPORTANT: If you want to exit the game, enter E (in capital)
+
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+The word you have to guess is
+a _ _ _ _ _ 
+enter letter
+a _ _ a _ _ 
+Dealt 0.15 damage!
+score so far: 0.15
+enter letter
+a _ _ a _ _ 
+Took 0.15 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Dealt 0.3 damage!
+score so far: 0.45
+enter letter
+a t t a c _ 
+Dealt 0.45 damage!
+score so far: 0.9
+enter letter
+a t t a c k 
+Dealt 0.6 damage!
+score so far: 1.5
+The word you have to guess is
+d _ _ _ _ _ 
+enter letter
+Your end score is: 1.5
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected View game history
+
+Your game history:
+1. Basketball
+2. Blackjack
+3. Blackjack
+4. Fight
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Prize corner
+
+Your current amount of points : 18.5
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Exited the Prize Corner
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected View My Prizes
+
+The prizes you have earned:
 
 Please enter the number for the option you would like
 1. Basketball

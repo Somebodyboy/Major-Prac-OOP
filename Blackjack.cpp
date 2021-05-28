@@ -394,3 +394,7 @@ void Blackjack::dealerTurn(){
         }
     }
 }
+
+Blackjack::~Blackjack(){
+    
+};

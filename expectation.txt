@@ -1,0 +1,6 @@
+Expected outputs from mainTest1: All boundary test cases that are entered should be invalid and all games should ask the user to try again and input
+a valid input, the same goes for the prize shop.
+
+Expected outputs from mainTest2: This is built to have enough points to buy stickers, 
+when the user's prizes are checked, he should only have stickers after he has bought them and nothing else.
+

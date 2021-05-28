@@ -1,0 +1,131 @@
+
+
+Welcome to the Virtual Arcade!
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Fight
+
+Here are the instructions for how to play Word guessing fight game
+1. This is a game where you try to guess 5 words
+2. The first letter of every new word is given to you
+3. The first letter that is given can be contained inside the word again
+4. Each time you guess a letter in a word correctly, your score goes up by 5
+5. For every letter you get right consecutively, the points gained are increased by another 5
+6. Each time you guess a letter incorrectly, the multiplier is set back to zero and 5 points are reduced from your score
+7. IMPORTANT: If you want to exit the game, enter E (in capital)
+
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+Enter 1 to start
+The word you have to guess is
+a _ _ _ _ _ 
+enter letter
+a _ _ a _ _ 
+Dealt 0.15 damage!
+score so far: 0.15
+enter letter
+a _ _ a _ _ 
+score so far: 0.15
+enter letter
+a _ _ a _ _ 
+score so far: 0.15
+enter letter
+a t t a _ _ 
+Dealt 0.45 damage!
+score so far: 0.9
+enter letter
+a t t a _ _ 
+score so far: 0.9
+enter letter
+a t t a _ _ 
+Took 0.9 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+a t t a _ _ 
+Took 0 damage!
+score so far: 0
+enter letter
+Your end score is: 0
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Exit
+
+Thank you for playing the Virtual Arcade
+

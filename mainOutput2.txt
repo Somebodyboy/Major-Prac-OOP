@@ -1,0 +1,456 @@
+
+
+Welcome to the Virtual Arcade!
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Basketball
+
+Here are the instructions for how to play Basketball
+
+1. You have 15 seconds to score as many points as possible
+2. You can choose between three types of shots : fast, normal, and slow
+3. A fast shot will take up 1 seconds with a 25% chance to score
+4. A normal shot will take up 2 seconds with a 48% chance to score
+5. A slow shot will take up 3 seconds with a 70% chance to score
+6. Exceeding the time limit does not have a penalty, but you run out of chances when the time falls below 1
+
+Time left : 15
+
+You have three choices : 
+1. Fast
+2. Normal
+3. Slow
+
+Please enter a value from 1-3 to make a choice : 
+You scored!
+Time left : 12
+
+You have three choices : 
+1. Fast
+2. Normal
+3. Slow
+
+Please enter a value from 1-3 to make a choice : 
+You scored!
+Time left : 9
+
+You have three choices : 
+1. Fast
+2. Normal
+3. Slow
+
+Please enter a value from 1-3 to make a choice : 
+Oops, you missed!
+Time left : 7
+
+You have three choices : 
+1. Fast
+2. Normal
+3. Slow
+
+Please enter a value from 1-3 to make a choice : 
+Oops, you missed!
+Time left : 6
+
+You have three choices : 
+1. Fast
+2. Normal
+3. Slow
+
+Please enter a value from 1-3 to make a choice : 
+You scored!
+Time left : 3
+
+You have three choices : 
+1. Fast
+2. Normal
+3. Slow
+
+Please enter a value from 1-3 to make a choice : 
+Oops, you missed!
+Time left : 2
+
+You have three choices : 
+1. Fast
+2. Normal
+3. Slow
+
+Please enter a value from 1-3 to make a choice : 
+Oops, you missed!
+
+-----------------------------------
+
+Thank you for playing basketball
+
+3 shots on point
+
+Your final score is 6
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Fight
+
+Here are the instructions for how to play Word guessing fight game
+1. This is a game where you try to guess 5 words
+2. The first letter of every new word is given to you
+3. The first letter that is given can be contained inside the word again
+4. Each time you guess a letter in a word correctly, your score goes up by 5
+5. For every letter you get right consecutively, the points gained are increased by another 5
+6. Each time you guess a letter incorrectly, the multiplier is set back to zero and 5 points are reduced from your score
+7. IMPORTANT: If you want to exit the game, enter E (in capital)
+
+Enter 1 to start
+The word you have to guess is
+a _ _ _ _ _ 
+enter letter
+a _ _ a _ _ 
+Dealt 0.15 damage!
+score so far: 0.15
+enter letter
+a t t a _ _ 
+Dealt 0.45 damage!
+score so far: 0.9
+enter letter
+a t t a c _ 
+Dealt 0.6 damage!
+score so far: 1.5
+enter letter
+a t t a c k 
+Dealt 0.75 damage!
+score so far: 2.25
+The word you have to guess is
+d _ _ _ _ _ 
+enter letter
+d e _ e _ _ 
+Dealt 1.05 damage!
+score so far: 4.2
+enter letter
+d e _ e n _ 
+Dealt 1.2 damage!
+score so far: 5.4
+enter letter
+d e f e n _ 
+Dealt 1.35 damage!
+score so far: 6.75
+enter letter
+d e f e n d 
+Dealt 1.5 damage!
+score so far: 8.25
+The word you have to guess is
+p _ _ _ _ _ _ _ 
+enter letter
+p r _ _ _ _ _ _ 
+Dealt 1.65 damage!
+score so far: 9.9
+enter letter
+p r e _ _ _ _ e 
+Dealt 1.95 damage!
+score so far: 13.65
+enter letter
+p r e s _ _ _ e 
+Dealt 2.1 damage!
+score so far: 15.75
+enter letter
+p r e s _ i _ e 
+Dealt 2.25 damage!
+score so far: 18
+enter letter
+p r e s t i _ e 
+Dealt 2.4 damage!
+score so far: 20.4
+enter letter
+p r e s t i g e 
+Dealt 2.55 damage!
+score so far: 22.95
+The word you have to guess is
+h _ _ _ _ 
+enter letter
+h a _ _ _ 
+Dealt 2.7 damage!
+score so far: 25.65
+enter letter
+h a s _ _ 
+Dealt 2.85 damage!
+score so far: 28.5
+enter letter
+h a s t _ 
+Dealt 3 damage!
+score so far: 31.5
+enter letter
+h a s t e 
+Dealt 3.15 damage!
+score so far: 34.65
+The word you have to guess is
+t _ _ _ _ _ _ _ 
+enter letter
+t e _ e _ _ _ _ 
+Dealt 3.45 damage!
+score so far: 41.4
+enter letter
+t e l e _ _ _ _ 
+Dealt 3.6 damage!
+score so far: 45
+enter letter
+t e l e p _ _ _ 
+Dealt 3.75 damage!
+score so far: 48.75
+enter letter
+t e l e p o _ _ 
+Dealt 3.9 damage!
+score so far: 52.65
+enter letter
+t e l e p o r _ 
+Dealt 4.05 damage!
+score so far: 56.7
+enter letter
+t e l e p o r t 
+Dealt 4.2 damage!
+score so far: 60.9
+Your end score is: 60.9
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected View game history
+
+Your game history:
+1. Basketball
+2. Fight
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Prize corner
+
+Your current amount of points : 66.9
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 66.9
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 66.9
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 66.9
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Exited the Prize Corner
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected View My Prizes
+
+The prizes you have earned:
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Fight
+
+Here are the instructions for how to play Word guessing fight game
+1. This is a game where you try to guess 5 words
+2. The first letter of every new word is given to you
+3. The first letter that is given can be contained inside the word again
+4. Each time you guess a letter in a word correctly, your score goes up by 5
+5. For every letter you get right consecutively, the points gained are increased by another 5
+6. Each time you guess a letter incorrectly, the multiplier is set back to zero and 5 points are reduced from your score
+7. IMPORTANT: If you want to exit the game, enter E (in capital)
+
+Enter 1 to start
+The word you have to guess is
+a _ _ _ _ _ 
+enter letter
+a _ _ a _ _ 
+Dealt 0.15 damage!
+score so far: 0.15
+enter letter
+a t t a _ _ 
+Dealt 0.45 damage!
+score so far: 0.9
+enter letter
+a t t a c _ 
+Dealt 0.6 damage!
+score so far: 1.5
+enter letter
+a t t a c k 
+Dealt 0.75 damage!
+score so far: 2.25
+The word you have to guess is
+d _ _ _ _ _ 
+enter letter
+Your end score is: 2.25
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Prize corner
+
+Your current amount of points : 69.15
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Redeemed Stickers
+Your current amount of points : 9.15
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 9.15
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 9.15
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 9.15
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 9.15
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Your current amount of points : 9.15
+
+1. High-tech gaming mouse - 300 Points
+2. Office mouse - 150 Points
+3. Mug - 100 Points
+4. Small plushie - 75 Points
+5. Stickers - 60 Points
+6. Exit
+Enter the number of the prize you want to redeem or enter 6 to exit.
+Exited the Prize Corner
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected View My Prizes
+
+The prizes you have earned:
+1. Stickers
+
+Please enter the number for the option you would like
+1. Basketball
+2. Blackjack
+3. Fight
+4. View game history
+5. Prize corner
+6. View My Prizes
+7. Exit
+
+Please select a valid number between 1-7 : 
+You selected Exit
+
+Thank you for playing the Virtual Arcade
+

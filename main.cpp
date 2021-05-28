@@ -22,7 +22,7 @@ int main(){
 
     // Game options stored in an array
     int numberOfOptions = 7;
-    string options[7] = {"Basketball\n","Blackjack\n","Fight\n","View game history\n","Prize corner\n","View My Prizes\n","Exit\n"};
+    string options[numberOfOptions] = {"Basketball\n","Blackjack\n","Fight\n","View game history\n","Prize corner\n","View My Prizes\n","Exit\n"};
 
     // Game history
     vector<string> gameHistory;
@@ -152,12 +152,10 @@ int main(){
     // Goodbye message
     cout<<"Thank you for playing the Virtual Arcade\n\n";
     // cout << games[0]->getGlobalPoint() << endl;
-
-    //remove comment from delete when all classes
-    //have destructor
-    // delete games[0];
-    // delete games[1];
-    // delete games[2];
+    
+    delete games[0];
+    delete games[1];
+    delete games[2];
 
     return 0;
 }

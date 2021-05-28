@@ -51,6 +51,7 @@ public:
     void renderHand(vector<Card> hand); //Renders one hand
     void dealerTurn(); //Method for the dealer's turn. Draws until the hand value is 17 and up
     Blackjack();
+    virtual ~Blackjack();
 
 };
 
